@@ -10,10 +10,7 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={lightTheme}>
       <Box>
-        <HashRouter>
-          <Route path="/verifyInvoice" element={<InvoiceVerificationPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </HashRouter>
+        <InvoiceVerificationPage />
       </Box>
     </ThemeProvider>
   );
