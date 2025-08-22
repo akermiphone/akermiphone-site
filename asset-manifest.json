@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/your-repo/static/css/main.bf76a9f0.css",
-    "main.js": "/your-repo/static/js/main.84f5694c.js",
-    "static/js/453.f20631f5.chunk.js": "/your-repo/static/js/453.f20631f5.chunk.js",
-    "index.html": "/your-repo/index.html",
-    "main.bf76a9f0.css.map": "/your-repo/static/css/main.bf76a9f0.css.map",
-    "main.84f5694c.js.map": "/your-repo/static/js/main.84f5694c.js.map",
-    "453.f20631f5.chunk.js.map": "/your-repo/static/js/453.f20631f5.chunk.js.map"
+    "main.css": "/akermiphone-site/static/css/main.bf76a9f0.css",
+    "main.js": "/akermiphone-site/static/js/main.b916c10a.js",
+    "static/js/453.f20631f5.chunk.js": "/akermiphone-site/static/js/453.f20631f5.chunk.js",
+    "index.html": "/akermiphone-site/index.html",
+    "main.bf76a9f0.css.map": "/akermiphone-site/static/css/main.bf76a9f0.css.map",
+    "main.b916c10a.js.map": "/akermiphone-site/static/js/main.b916c10a.js.map",
+    "453.f20631f5.chunk.js.map": "/akermiphone-site/static/js/453.f20631f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf76a9f0.css",
-    "static/js/main.84f5694c.js"
+    "static/js/main.b916c10a.js"
   ]
 }
