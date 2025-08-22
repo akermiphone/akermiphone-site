@@ -78,9 +78,6 @@ const InvoiceVerificationPage: React.FC = () => {
   const [errorText, setErrorText] = useState<string | null>(null);
   const [copiedHint, setCopiedHint] = useState<string | null>(null);
 
-  // Build-safe logo path (works with GitHub Pages when "homepage" is set)
-  const logoSrc = `${process.env.PUBLIC_URL || ""}/images/logo.png`;
-
   // Extract params once on mount - no server calls
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -279,35 +276,6 @@ const InvoiceVerificationPage: React.FC = () => {
             alignItems: "center",
           }}
         >
-          {/* Logo: uses process.env.PUBLIC_URL so it works when built for GH Pages */}
-          <Box
-            component="a"
-            href="/"
-            sx={{
-              display: "inline-flex",
-              alignItems: "center",
-              textDecoration: "none",
-              mr: { sm: 2 },
-            }}
-          >
-            <Box
-              component="img"
-              src={logoSrc}
-              alt="Store logo"
-              onError={(e) => {
-                // hide if missing
-                (e.currentTarget as HTMLImageElement).style.display = "none";
-              }}
-              sx={{
-                width: { xs: 40, sm: 48, md: 56 },
-                height: "auto",
-                borderRadius: 1,
-                objectFit: "contain",
-                mr: 1,
-              }}
-            />
-          </Box>
-
           <Box sx={{ color: "text.secondary", fontSize: "0.95rem", flex: 1 }}>
             This tool performs a quick, <strong>client-side</strong>{" "}
             verification in your browser using the signature and public key you
